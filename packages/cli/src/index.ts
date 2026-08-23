@@ -59,3 +59,6 @@ program
   });
 
 program.parseAsync(process.argv);
+
+// the link to get updates from the bot, which can be useful for debugging or checking the bot's activity
+// https://api.telegram.org/bot{token}getUpdates
