@@ -1,4 +1,5 @@
 import { Command } from "commander";
+import { sendTelegramMessage } from "sendkit-core";
 
 type TelegramResponse = {
     ok: boolean;
